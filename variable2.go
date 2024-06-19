@@ -15,4 +15,9 @@ func main() {
 	var intNum32 int32 = 2
 	var result float32 = floatNum32 + float32(intNum32)
 	fmt.Println(result)
+
+	var myString string = "Hello, World!"
+	fmt.Println(myString)
+
+	fmt.Println(len("test"))
 }
